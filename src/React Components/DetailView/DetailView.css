@@ -1,0 +1,104 @@
+.Detail_img {
+    padding-right: 3rem;
+    padding-top: 4.5rem;
+    /* padding-left: 6rem; */
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* width: max-content; */
+}
+
+.title{
+    padding: 0rem 3rem;
+}
+.overView{
+    padding:0rem 3rem;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    color: aliceblue;
+    text-align:justify;
+    padding-bottom: 2rem;
+}
+.Detail_encloser {
+    position: relative;
+    /* width: 100%; */
+}
+.encloseViewer{
+    margin: 3rem;
+    margin-top: 0;
+
+}
+ .titleinvideo {
+     visibility: hidden; 
+     position: absolute;
+ }
+  .blur {
+     visibility: hidden;
+  }
+.encloseViewer:hover {
+    .blur {
+            visibility: visible;
+            opacity: .7;
+            background-color: rgb(239, 242, 245);
+            position: absolute;
+            color: black;
+            position: absolute;
+            /* left: 3rem; */
+            width: 44.5rem;
+            height: 2.3rem;
+        }
+    
+        .titleinvideo {
+            visibility: visible; 
+                position: absolute;
+                        /* left: 3rem; */
+                         /* width: 40.5rem; */
+                font-weight: 900;
+                font-size: 1.5rem;
+                padding-left: 2rem;
+               
+        }
+    /* background-color: aliceblue; */
+
+}
+.row_Posters_details {
+   
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    height: 30rem;
+
+padding-top: 0rem;
+}
+.row_Posters_details:hover {
+    color: red;
+    cursor: pointer;
+    /* background-color: aliceblue; */
+    
+}
+.svgDet {
+    position: absolute;
+    left: 22.5rem;
+    top: 12.5rem;
+    background-color: rgb(0, 0, 0);
+    border-radius: 4rem;
+    width: 4rem;
+    /* display: flex; */
+    height: 4rem;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.tab:hover {
+    color: red;
+    cursor: pointer;
+    /* background-color: aliceblue; */
+
+}
+.svgDetail {
+    height: 1rem;
+    width: 1rem;
+    position: absolute;
+    /* border: 1px wh; */
+    color: rgb(246, 246, 246);
+}

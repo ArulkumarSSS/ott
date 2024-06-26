@@ -1,0 +1,55 @@
+.AboutUs{
+ color: aliceblue;
+font-family: EB Garamond;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contact {
+    border-radius: 1rem;
+    /* position: absolute; */
+    width: 100%;
+
+}
+.welcomeAbout{
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.aboutus{
+    padding: 0rem 1rem 1rem 1rem;
+    
+}
+.aboutDesc{
+padding: 0rem 1rem;
+padding-bottom: 1rem;
+}
+.userView{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+}
+.detailAbout{
+background-color: rgb(41, 55, 67);
+border-radius: 1rem;
+
+}
+.contactText {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 8rem;
+    right: 40%;
+    left: 40%;
+    color: aliceblue;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.AboutImage{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-self: center;
+    
+}

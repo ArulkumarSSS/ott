@@ -1,0 +1,159 @@
+.head {
+    display: flex;
+    z-index: 300;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #000000;
+    align-items: center;
+    width: 100%;
+    height: 3.2rem;
+    font-family: EB Garamond;
+    background-color: black;
+    position: fixed;
+
+}
+
+.logo {
+    color: red;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.iconsearcher {
+    color: aliceblue;
+    display: flex;
+    /* transform: translateY(-.35rem); */
+    align-items: center;
+    background-color: rgb(255, 0, 0);
+    font-size: .8rem;
+    width: 1.2rem;
+    justify-content: center;
+}
+
+.icons {
+    color: rgb(236, 230, 230);
+    display: flex;
+    /* transform: translateY(.1rem); */
+    align-items: center;
+        width: 2rem;
+        justify-content: center;
+    /* font-size: 1.4rem; */
+}
+
+.icons:hover {
+    /* transform: scale(1.06); */
+    opacity: 1;
+    color: red;
+    cursor: pointer;
+    transform: scale(1.06);
+}
+
+.backgroundSVG {
+    /* position: absolute; */
+    border: 1px rgb(242, 18, 18) solid;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 1.4rem;
+    background-color: rgb(15, 14, 14);
+    font-size: 1.4rem;
+}
+
+.backgroundSVG:hover {
+    transform: scale(1.06);
+    opacity: 1;
+    color: red;
+    cursor: pointer;
+    /* background-color: aliceblue; */
+}
+.searchers {
+    color: rgb(15, 15, 14);
+    width: 25rem;
+    height: 1.8rem;
+    outline: none;
+    border: none;
+
+    &::placeholder {
+        font-weight: 500;
+        opacity: .6;
+        font-weight: 300;
+        font-size: .8rem;
+
+    }
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.results {
+    border-bottom: 1px rgb(223, 222, 222) solid;
+    display: flex;
+    gap: .5rem;
+    padding: .41rem;
+    align-content: left;
+    justify-content: left;
+}
+
+.result {
+    display: flex;
+
+}
+
+
+.close {
+    visibility: hidden;
+    position: absolute;
+}
+
+.closex {
+    visibility: hidden;
+    /* position: absolute; */
+}
+
+.closing {
+    /* visibility: hidden; */
+    background-color: transparent;
+    /* position: absolute; */
+}
+.open {
+    visibility: hidden;
+    position: absolute;
+    /* z-index: 5; */
+}
+.ccardXsearchersx {
+    position: absolute;
+    box-shadow: 0 5px 10px #000000;
+    background-color: rgb(255, 255, 255);
+    top: 2rem;
+    width: 26.43rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    .iconsearchersearchers {
+        transform: translateY(.2rem);
+        font-size: .8rem;
+    }
+}
+.ccardXsearchers {
+    cursor: pointer;
+    box-shadow: 0 5px 10px #000000;
+    background-color: rgb(255, 255, 255);
+    visibility: hidden;
+    width: 25rem;
+    
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    gap: 1rem;
+
+}

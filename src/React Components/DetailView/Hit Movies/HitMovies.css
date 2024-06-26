@@ -1,0 +1,58 @@
+.title_HitMovies{
+    color: aliceblue;
+    font-size: 3rem;
+}
+.flex_row {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+.HitMovies{
+    height: 30rem;
+scrollbar-color: red orange;
+    scrollbar-width:thin;
+/* overflow-y: scroll; */
+    overflow-x: hidden;
+}
+.flex_row::-webkit-scrollbar {
+    display: none;
+}
+.HitMovies::-webkit-scrollbar {
+    display: none;
+}
+
+.title_HitMovies {
+    padding-left: 0%;
+    color: rgb(195, 198, 201);
+    width: 90%;
+    height: 2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: rgb(6, 35, 61);
+    font-weight: 500;
+}
+
+.row_Posters_HitMovies {
+    width: 90%;
+    height: 90%;
+    /* max-height: 13rem; */
+    /* margin-right: 1.2rem; */
+    /* overflow:scroll; */
+    margin-bottom: 1rem;
+    transition: transform 450ms;
+
+}
+.row_Poster_HitMovies{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.row_Posters_HitMovies:hover {
+    transform: scale(1.06);
+    opacity: 1;
+
+}
+
+.row {
+    padding-top: 1rem;
+}

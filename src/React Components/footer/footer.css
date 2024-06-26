@@ -1,0 +1,37 @@
+.Footer{
+    font-family: EB Garamond;
+    color: aliceblue;
+    display: flex;
+    background-color: rgb(6, 35, 61);
+    justify-content:space-evenly;
+    padding: 1rem;
+    Z-index:0;
+}
+.list{
+    list-style-type: none;
+    padding: 0;
+    color: rgb(195, 198, 201);
+    :hover {
+            transform: scale(1);
+            opacity: 1;
+            color: rgb(229, 27, 27);
+            cursor: pointer;
+        }
+}
+.topics{
+    text-align: center;
+}
+.HeadingFoot{
+    transform: translateX(-.8rem);
+}
+li{
+  display: flex;
+  justify-content: left; 
+  padding: .3rem 0rem;
+}
+.li {
+    display: flex;
+    justify-content: left;
+    color: rgb(195, 198, 201);  
+    padding: .3rem 0rem;
+}

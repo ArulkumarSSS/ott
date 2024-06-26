@@ -1,0 +1,22 @@
+.row_Posters_trend_people {
+    outline-offset: .2rem;
+    outline: 1px dashed rgb(255, 255, 255);
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enclose{
+    display: flex;
+    justify-content : center;
+        align-items: center;
+        position: relative;
+}
+.HeadingTrend_people_Name{
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    width: 10rem;
+    color: aliceblue;
+}

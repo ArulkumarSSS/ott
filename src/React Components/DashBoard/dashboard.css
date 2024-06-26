@@ -1,0 +1,13 @@
+.dashboard{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    position: relative;
+    padding: 4rem;
+    gap: 2rem;
+    /* height: 30rem; */
+}
+
+.DashBoardContents{
+    background-color: rgb(6, 35, 61);
+    /* height: 40%; */
+}

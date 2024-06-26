@@ -1,0 +1,56 @@
+.contact{
+/* position: absolute; */
+font-family: EB Garamond;
+width: 100%;
+
+}
+.contactText{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 6rem;
+    right: 40%;
+    left: 40%;
+    color: aliceblue;
+    font-size: 3.3rem;
+    font-weight:bolder;
+}
+.iconsearchersearch{
+    background-color: black;
+    width: 5rem;
+    height: 5rem;
+    color:red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+    font-size: 2rem;
+}
+.iconEnclose{
+     padding: 1rem 1rem;
+    display: flex;
+    justify-content: center;
+}
+.detail{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* flex-direction: column; */
+    gap: 5rem;
+    padding: 2rem;
+}
+.text{
+    color: rgb(195, 198, 201);
+        padding: 0rem 1rem;
+        font-weight: 700;
+}
+.Desc{
+    color: rgb(189, 193, 196);
+    padding: 1rem 1rem;
+}
+.contactDet{
+    border: 0.0001rem rgb(255, 255, 255) solid;
+    width: fit-content;
+    background-color: rgb(6, 35, 61);
+    border-radius: 1rem;
+    
+}

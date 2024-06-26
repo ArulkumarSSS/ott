@@ -1,0 +1,32 @@
+.flex_row{
+display: flex;
+overflow-y: hidden;
+overflow-x: scroll;
+padding: 20px;
+}
+.flex_row::-webkit-scrollbar{
+    display: none;
+}
+.title{
+    padding-left: 0%;
+    color: rgb(244, 246, 248);
+    width: fit-content;
+    font-size: large;
+    font-weight: 500;
+    padding-left: 1.5rem;
+}
+.row_Posters{
+   width: 50%;
+   max-height: 10rem;
+   margin-right: 1.2rem;
+   transition: transform 450ms;
+   
+}
+.row_Posters:hover{
+    transform: scale(1.06);
+    opacity: 1;
+
+}
+.row{
+    padding-top: 1rem;
+}

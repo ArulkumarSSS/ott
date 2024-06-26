@@ -1,0 +1,72 @@
+.SignUp{
+    border: 1px grey solid;
+    border-radius: 1rem;
+    width: 50%;
+    color: rgb(154, 151, 151);  
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(6, 35, 61);
+    gap: 2rem;
+    padding: 1rem 0rem;
+}
+.SignUpEnclosex{
+    padding: 7rem 3rem;
+    display: flex;
+    justify-content: center;
+}
+.input{
+    color: rgb(151, 157, 162);
+    background-color: black;
+    width: 100%;
+    height: 2.5rem;
+    border-radius: .3rem;
+    border: 0;
+    outline: 0cm;
+}
+.leftAlign{
+    padding: 0 1rem;
+    display: flex;
+    font-size: 1.1rem;
+}
+.justify{
+    display: flex;
+    gap: .4rem;
+    justify-content: center;
+}
+.buttonSignUp{
+    border-radius: 1rem;
+    padding: .8rem;
+    /* color: black; */
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: white    ;
+    width: 11rem;
+    background-color: rgb(245, 7, 7);
+}
+.ButtonEncloser{
+    display: flex;
+    justify-content: center;
+}
+.tabButton {
+    /* color: rgb(252, 249, 249); */
+}
+
+.tabButton:hover {
+    /* transform: scale(1.06); */
+    opacity: 1;
+    background-color: rgb(6, 35, 61);
+    color: rgb(247, 238, 238);
+    transition: all .4  s ease-in-out;
+    cursor: pointer;
+}
+.SignIn_in_SignUp{
+    color: aliceblue;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.size{
+    font-size: 1.3rem;
+}
